@@ -3,6 +3,7 @@
 A macOS HID project exploring keyboard LED control through Apple’s I/O Kit and IOHID Manager APIs.
 
 **Overview**
+
 This project is based on a legacy Mac OS X command-line HID LED test tool. It demonstrates how connected USB keyboards can be detected and their LED states controlled programmatically.
 
 I explored and adapted the project to address a practical keyboard-lighting issue on macOS, where the keyboard’s LED control conflicted with the system’s handling of the Scroll Lock key.
@@ -34,9 +35,11 @@ hid-led-test-tool/
 └── README.md
 
 **Purpose**
+
 This project demonstrates practical troubleshooting, technical research, automation, and documentation.
 
 Rather than treating a hardware/software compatibility issue as a dead end, I investigated how the device communicated with macOS, explored the existing implementation, modified the behavior, and created a more convenient workflow for repeated use.
 
 **Note**
+
 This project is based on a legacy Mac OS X HID example and was adapted for personal testing and learning. It is presented as a technical work sample demonstrating problem-solving and automation.
