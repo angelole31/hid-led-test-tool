@@ -30,8 +30,11 @@ I explored and adapted the project to address a practical keyboard-lighting issu
 **Project Structure**
 
 hid-led-test-tool/
+
 ├── main.c
+
 ├── project.pbxproj
+
 └── README.md
 
 **Purpose**
